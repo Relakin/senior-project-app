@@ -15,6 +15,7 @@
 		4EE5F4461E61033A00EE74FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EE5F4441E61033A00EE74FD /* LaunchScreen.storyboard */; };
 		4EE5F4511E61033A00EE74FD /* Senior_Project_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5F4501E61033A00EE74FD /* Senior_Project_AppTests.swift */; };
 		4EE5F45C1E61033A00EE74FD /* Senior_Project_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5F45B1E61033A00EE74FD /* Senior_Project_AppUITests.swift */; };
+		64D7912B1E65013B00DD226C /* Onboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D7912A1E65013B00DD226C /* Onboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		4EE5F4571E61033A00EE74FD /* Senior Project AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Senior Project AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EE5F45B1E61033A00EE74FD /* Senior_Project_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senior_Project_AppUITests.swift; sourceTree = "<group>"; };
 		4EE5F45D1E61033A00EE74FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D7912A1E65013B00DD226C /* Onboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				4EE5F4381E61033A00EE74FD /* AppDelegate.swift */,
 				4EE5F43A1E61033A00EE74FD /* ViewController.swift */,
+				64D7912A1E65013B00DD226C /* Onboard.storyboard */,
 				4EE5F43C1E61033A00EE74FD /* Main.storyboard */,
 				4EE5F4421E61033A00EE74FD /* Assets.xcassets */,
 				4EE5F4441E61033A00EE74FD /* LaunchScreen.storyboard */,
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					4EE5F4341E61033A00EE74FD = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = W29D5BE398;
 						ProvisioningStyle = Automatic;
 					};
 					4EE5F44B1E61033A00EE74FD = {
@@ -237,6 +241,7 @@
 			files = (
 				4EE5F4461E61033A00EE74FD /* LaunchScreen.storyboard in Resources */,
 				4EE5F4431E61033A00EE74FD /* Assets.xcassets in Resources */,
+				64D7912B1E65013B00DD226C /* Onboard.storyboard in Resources */,
 				4EE5F43E1E61033A00EE74FD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +421,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W29D5BE398;
 				INFOPLIST_FILE = "Senior Project App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.srhs.Senior-Project-App";
@@ -428,6 +434,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W29D5BE398;
 				INFOPLIST_FILE = "Senior Project App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.srhs.Senior-Project-App";
@@ -509,6 +516,7 @@
 				4EE5F4621E61033A00EE74FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE5F4631E61033A00EE74FD /* Build configuration list for PBXNativeTarget "Senior Project AppTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +525,7 @@
 				4EE5F4651E61033A00EE74FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4EE5F4661E61033A00EE74FD /* Build configuration list for PBXNativeTarget "Senior Project AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +534,7 @@
 				4EE5F4681E61033A00EE74FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
