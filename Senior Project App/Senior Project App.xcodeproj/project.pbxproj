@@ -16,6 +16,7 @@
 		4EE5F4511E61033A00EE74FD /* Senior_Project_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5F4501E61033A00EE74FD /* Senior_Project_AppTests.swift */; };
 		4EE5F45C1E61033A00EE74FD /* Senior_Project_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EE5F45B1E61033A00EE74FD /* Senior_Project_AppUITests.swift */; };
 		64D7912B1E65013B00DD226C /* Onboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D7912A1E65013B00DD226C /* Onboard.storyboard */; };
+		64D791301E65185400DD226C /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D7912F1E65185400DD226C /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		4EE5F45B1E61033A00EE74FD /* Senior_Project_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Senior_Project_AppUITests.swift; sourceTree = "<group>"; };
 		4EE5F45D1E61033A00EE74FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		64D7912A1E65013B00DD226C /* Onboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboard.storyboard; sourceTree = "<group>"; };
+		64D7912F1E65185400DD226C /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,9 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				4EE5F4381E61033A00EE74FD /* AppDelegate.swift */,
-				4EE5F43A1E61033A00EE74FD /* ViewController.swift */,
-				64D7912A1E65013B00DD226C /* Onboard.storyboard */,
-				4EE5F43C1E61033A00EE74FD /* Main.storyboard */,
+				64D7912D1E65182500DD226C /* Storyboards */,
+				64D7912C1E65181D00DD226C /* ViewControllers */,
 				4EE5F4421E61033A00EE74FD /* Assets.xcassets */,
 				4EE5F4441E61033A00EE74FD /* LaunchScreen.storyboard */,
 				4EE5F4471E61033A00EE74FD /* Info.plist */,
@@ -129,6 +130,32 @@
 				4EE5F45D1E61033A00EE74FD /* Info.plist */,
 			);
 			path = "Senior Project AppUITests";
+			sourceTree = "<group>";
+		};
+		64D7912C1E65181D00DD226C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				64D7912E1E65184200DD226C /* Onboard */,
+				4EE5F43A1E61033A00EE74FD /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		64D7912D1E65182500DD226C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				64D7912A1E65013B00DD226C /* Onboard.storyboard */,
+				4EE5F43C1E61033A00EE74FD /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		64D7912E1E65184200DD226C /* Onboard */ = {
+			isa = PBXGroup;
+			children = (
+				64D7912F1E65185400DD226C /* LoginVC.swift */,
+			);
+			name = Onboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,6 +296,7 @@
 			files = (
 				4EE5F43B1E61033A00EE74FD /* ViewController.swift in Sources */,
 				4EE5F4411E61033A00EE74FD /* Senior_Project_App.xcdatamodeld in Sources */,
+				64D791301E65185400DD226C /* LoginVC.swift in Sources */,
 				4EE5F4391E61033A00EE74FD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
